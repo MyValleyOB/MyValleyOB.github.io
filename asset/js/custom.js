@@ -15,6 +15,8 @@ $('#submitButton').click(function(){
     const year = $('#selectYear').val();
     const dbo = month + date + year;
 
+	console.log(dbo)
+
     if(!month || !date || !year ){
       $('.msg-error').show();
       return;
